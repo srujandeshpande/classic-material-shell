@@ -1,6 +1,8 @@
 # Material Shell
 A **simple**, **productivity oriented** GNOME Shell replacement that provides an **innovative** and **automated** **mouse and keyboard [workflow](./documentation/material-shell.md#workflow)** which aims to be **faster** and **easier** to use and creates a **great user experience**.
 
+#### **Important**: This is not the [current material shell](https://github.com/material-shell/material-shell.git). The current version of Material Shell features many new updates and dyanamic workspaces. If like me, you don't like it, then you can use this version which is the original version with fixed workspaces with specific applications in each. Enjoy!
+
 Made by following the **[Material Design guidelines](https://material.io)** - a solid baseline that allows us to provide an **aesthetically pleasing** and **highly accessible** interface.
 
 #### [Read more about the workflow and Material Shell](./documentation/material-shell.md#workflow)
@@ -9,7 +11,7 @@ Made by following the **[Material Design guidelines](https://material.io)** - a 
 
 ![Demo GIF](demo.gif)
 
-### Discord
+### Discord - Current Material Shell
 Get notified about updates and join me at [https://discord.gg/vBb7D9a](https://discord.gg/vBb7D9a)
 #
 #### STATUS: BETA (expect bugs!)
@@ -19,33 +21,16 @@ Get notified about updates and join me at [https://discord.gg/vBb7D9a](https://d
 ### From source
 1) Clone the project to the gnome-shell extensions folder:
 ```bash
-git clone https://github.com/PapyElGringo/material-shell.git ~/.local/share/gnome-shell/extensions/material-shell@papyelgringo
+git clone https://github.com/srujandeshpande/original-material-shell.git ~/.local/share/gnome-shell/extensions/material-shell@papyelgringo
 ```
 2) Reload GNOME Shell:
   + On X.org: Hit `Alt+F2` and type the command `r`
-  + On Wayland: Log out and back in
-3) Open `gnome-tweaks` and activate the `Material Shell` extension **OR** enable it using 
+  + On Wayland: Log out and back in  
+
+3) Open `gnome-tweaks` and activate the `Material Shell` extension **OR** enable it using
 ```bash
 gnome-shell-extension-tool -e material-shell@papyelgringo
 ```
-
-### Arch Linux
-1) You can install [Material Shell from the AUR](https://aur.archlinux.org/packages/gnome-shell-extension-material-shell-git/). \
-Assuming you're using yay:
-```
-yay -S gnome-shell-extension-material-shell-git
-```
-2) Reload GNOME Shell:
-  + On X.org: Hit `Alt+F2` and type the command `r`
-  + On Wayland: Log out and back in
-3) Open `gnome-tweaks` and activate the `Material Shell` extension **OR** enable it using 
-```bash
-gnome-shell-extension-tool -e material-shell@papyelgringo
-```
-
-### Other Distributions
-- Fedora: `sudo dnf install gnome-shell-extension-material-shell`
-And more to come...
 
 ## Workflow Hotkeys
 Some hotkeys might already be used by GNOME Shell - please check your keybindings first.
@@ -72,3 +57,5 @@ Some hotkeys might already be used by GNOME Shell - please check your keybinding
 * Icon theme: [Tela Icon Theme](https://github.com/vinceliuice/Tela-icon-theme)
 
 The project is based on my earlier work on [Material Awesome](https://github.com/PapyElGringo/material-awesome).
+
+The current repository can be found at https://github.com/material-shell/material-shell.git
