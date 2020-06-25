@@ -29,7 +29,7 @@ git clone https://github.com/srujandeshpande/original-material-shell.git ~/.loca
 
 3) Open `gnome-tweaks` and activate the `Material Shell` extension **OR** enable it using
 ```bash
-gnome-shell-extension-tool -e material-shell@papyelgringo
+gnome-extensions enable material-shell@papyelgringo
 ```
 
 ## Workflow Hotkeys
