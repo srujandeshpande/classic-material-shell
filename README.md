@@ -1,4 +1,4 @@
-# Material Shell
+# Classic Material Shell
 A **simple**, **productivity oriented** GNOME Shell replacement that provides an **innovative** and **automated** **mouse and keyboard [workflow](./documentation/material-shell.md#workflow)** which aims to be **faster** and **easier** to use and creates a **great user experience**.
 
 #### **Important**: This is not the [current material shell](https://github.com/material-shell/material-shell.git). The current version of Material Shell features many new updates and dyanamic workspaces. If like me, you don't like it, then you can use this version which is the original version with fixed workspaces with specific applications in each. Enjoy!
