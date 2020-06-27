@@ -12,7 +12,7 @@ Made by following the **[Material Design guidelines](https://material.io)** - a 
 ![Demo GIF](demo.gif)
 
 ### Discord - Current Material Shell
-Get notified about updates and join me at [https://discord.gg/vBb7D9a](https://discord.gg/vBb7D9a)
+Get notified about updates and join the community at [https://discord.gg/vBb7D9a](https://discord.gg/vBb7D9a)
 #
 #### STATUS: BETA (expect bugs!)
 #### REQUIRES: gnome-shell >=3.32.0
